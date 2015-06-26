@@ -10,10 +10,15 @@
     float:right;
 }
 body{
-  background-color: rgba(216, 220, 162, 0.7);
+    background-image: url("/mayascookingwithlove/img/chocchip.jpg");
+    background-repeat: repeat repeat;
 }
-.l-panel, .l-introduction, .hero-unit, section{
-  background: #D8DBA2;
+section, l-panel, l-introduction, .container{
+    background-color:transparent;
+}
+.hero-unit div{
+    background-color: rgb(216, 220, 168);
+    border-radius: 25px;
 }
 
 #myCarousel, #myCarousel img{

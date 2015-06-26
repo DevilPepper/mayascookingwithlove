@@ -681,14 +681,17 @@ a {
 .hero-unit {
   margin-bottom: 0.75em;
   padding: 24px;
-  background-color: rgba(146, 154, 0, 0.1);
+  margin: 20px;
+  background-color: rgb(216, 220, 168);
   border: 1px solid rgba(49, 52, 0, 0.1);
-  border-radius: 4px;
+  border-radius: 25px;
   color: #473f3f;
   /*p*/ }
   @media (min-width: 48em) {
     .hero-unit {
-      padding: 48px; }
+      padding: 48px;
+      margin: 20px;
+    }
       .hero-unit h1 {
         margin-bottom: 0.375em;
         font-size: 48px;
@@ -2334,10 +2337,6 @@ nav[role=navigation].active {
   @media (min-width: 37.5em) {
     #crumbs-trigger {
       display: none; } }
-
-.l-panel {
-  border-top: 1px solid #f3ff1b;
-  border-bottom: 7px solid #473f3f; }
   .l-panel:first-child {
     border-top-width: 0;
     border-bottom-width: 0; }
@@ -2413,11 +2412,9 @@ nav[role=navigation].active {
 .l-introduction {
   margin: 0;
   padding: 0;
-  background-color: #f5f4e7;
   background-position: 50% 100%;
   background-repeat: repeat-x; }
   .l-introduction .hero-unit {
-    margin: 0;
     padding: 24px 0.75em 48px;
     background-color: transparent;
     border-width: 0; }

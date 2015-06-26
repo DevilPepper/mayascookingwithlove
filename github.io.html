@@ -1,7 +1,10 @@
-﻿<!doctype html>
+<!doctype html>
 
 <!-- 
 Rock Hammer by Andy Clarke
+Version: 0.1
+URL: http://stuffandnonsense.co.uk/projects/rock-hammer/
+Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 -->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -9,32 +12,30 @@ Rock Hammer by Andy Clarke
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
-<title>Home cooking from Macedonia with love</title>
+<title>Rock Hammer</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="cleartype" content="on">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <meta name="og:name" content="Home cooking from Macedonia with love">
-<meta name="og:description" content="">
-<meta name="og:image" content="" />
+<meta name="description" content="">
+<meta name="author" content="">
 
 <!-- For all browsers -->
-    <link rel='stylesheet' href='/css/rock-hammer.css'>
-    <link href="/css/styles.css" rel="stylesheet" />
+<link rel='stylesheet' href='css/rock-hammer.css'>
+
 <!-- JavaScript -->
-<script src='/js/vendor/head.load.min.js'></script>
-    <script src='/js/vendor/modernizr-2.6.2-min.js'></script>
-    <script src='/js/vendor/jquery-1.8.3-min.js'></script>
-    <script src="/js/share.min.js"></script>
-    <script src="/js/script.js"></script>
+<script src='js/vendor/head.load.min.js'></script>
+<script src='js/vendor/modernizr-2.6.2-min.js'></script>
+<script src='js/vendor/jquery-1.8.3-min.js'></script>
+
 <!--[if (lt IE 9) & (!IEMobile)]>
 <script src='js/vendor/selectivizr-min.js'></script>
 <link rel='stylesheet' href='css/lte-ie8.css'>
 <![endif]-->
 
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="shortcut icon" href="/img/favicon.png">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="shortcut icon" href="img/favicon.png">
 <!-- <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png"> -->
 <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon-72x72-precomposed.png"> -->
 <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon-114x114-precomposed.png"> -->
@@ -51,24 +52,26 @@ Rock Hammer by Andy Clarke
 <!-- <link rel="apple-touch-startup-image" sizes="1024x748" href="img/startup/startup-1024x748.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape)"> -->
 <!-- <link rel="apple-touch-startup-image" sizes="768x1004" href="img/startup/startup-768x1004.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait)"> -->
 <!-- Windows 8 / RT -->
-<meta name="msapplication-TileImage" content="/img/h/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileImage" content="img/h/apple-touch-icon-144x144-precomposed.png">
 <meta name="msapplication-TileColor" content="#000">
 </head>
 
 <body class="samples" id="rock-hammer">
 
-<nav id="navigation-toggle" class="navi" role="navigation">
-<ul class="nav nav-pills">
-<li><a href="/">Home</a></li>
-<li><a href="/chickenricepilaf/">Chicken Rice Pilaf</a></li>
-<li><a href="/pitawithspinachandcheese">Pita with Spinach and Cheese</a></li>
-    <li><a href="/redpepperandwalnutdip">Red Pepper and Walnut Dip</a></li>
-    <li><a href="/contact">Contact</a></li>
+<a href="#navigation-toggle" class="navigation-toggle">Menu</a>
+<nav id="navigation-toggle" role="navigation">
+<ul>
+<li><a href="#panel-typography">Typography</a></li>
+<li><a href="#panel-colour">Colour</a></li>
+<li><a href="#panel-images">Images</a></li>
+<li><a href="#panel-navigation">Navigation</a></li>
+<li><a href="#panel-modules">Modules</a></li>
+<li><a href="#panel-forms">Forms</a></li>
+<li><a href="#panel-tables">Tables</a></li>
+<li><a href="#panel-widgets">Widgets</a></li>
 </ul>
 </nav>
-    <div class="navi">
-        <div class="share-button"></div>
-    </div>
+
 <div class="container">
 
 <section class="l-panel l-introduction">
@@ -2236,58 +2239,53 @@ Rock Hammer
 </small>
 </footer>
 </div><!-- container -->
-    <!-- Load libraries -->
-    <script>
-        head.js(
-        // Place scripts to be loaded here, in the order the need to be executed
-        // Typically libraries are needed first, such as jQuery (as the plugins
-        // depend on jQuery to execute). The below configuration is what Rock
-        // Hammer uses, but customise this for your own needs.
-        // Notice the use of @path here. This is because we need the file names,
-        // not the script tags being generated. Ensure all filenames you wish
-        // head.js to load are surrounded with quotes. Also, this is a list, so
-        // ensure that all but the last item are followed by a comma.
 
-        // Plugins
-        "/js/vendor/jquery/jquery.scrollTo.min.js",
+<!-- Load libraries -->
+<script>
+head.js(
+// Place scripts to be loaded here, in the order the need to be executed
+// Typically libraries are needed first, such as jQuery (as the plugins 
+// depend on jQuery to execute). The below configuration is what Rock 
+// Hammer uses, but customise this for your own needs.
+// Notice the use of @path here. This is because we need the file names, 
+// not the script tags being generated. Ensure all filenames you wish
+// head.js to load are surrounded with quotes. Also, this is a list, so
+// ensure that all but the last item are followed by a comma.
 
-        // Load bootstrap-transition first so that nice glides/fades
-        // etc for the other bootstrap plugins work
-        "/js/vendor/bootstrap/bootstrap-transition.js",
-        "/js/vendor/bootstrap/bootstrap-carousel.js",
-        "/js/vendor/bootstrap/bootstrap-tooltip.js",
+// Plugins
+"js/vendor/jquery/jquery.scrollTo.min.js",
 
-        // Popover has a dependency on tooltip, so make sure and include
-        // bootstrap-tooltip regardless in order for popovers to work
-        "/js/vendor/bootstrap/bootstrap-popover.js",
-        "/js/vendor/bootstrap/bootstrap-modal.js",
-        "/js/vendor/bootstrap/bootstrap-collapse.js",
+// Load bootstrap-transition first so that nice glides/fades 
+// etc for the other bootstrap plugins work
+"js/vendor/bootstrap/bootstrap-transition.js",
+"js/vendor/bootstrap/bootstrap-carousel.js",
+"js/vendor/bootstrap/bootstrap-tooltip.js",
 
-        // Responsive data tables
-        "/js/rwd-table.js",
+// Popover has a dependency on tooltip, so make sure and include 
+// bootstrap-tooltip regardless in order for popovers to work
+"js/vendor/bootstrap/bootstrap-popover.js",
+"js/vendor/bootstrap/bootstrap-modal.js",
+"js/vendor/bootstrap/bootstrap-collapse.js",
 
-        // Remove any navigation patterns below that arent used
-        // "js/nav-patterns/nav-toggle.js",
-        "/js/nav-patterns/left-nav-flyout.js",
-        "/js/nav-patterns/responsive-nav.min.js",
-        "/js/nav-patterns/responsive-breadcrumb.js",
+// Responsive data tables
+"js/rwd-table.js",
 
-        // Functionality only used by Rock Hammer - this should be removed in production projects!
-        "/js/navigation-manager.js"
+// Remove any navigation patterns below that arent used
+// "js/nav-patterns/nav-toggle.js",
+"js/nav-patterns/left-nav-flyout.js",
+"js/nav-patterns/responsive-nav.min.js",
+"js/nav-patterns/responsive-breadcrumb.js",
 
-        //my stuff
-        //"js/vendor/bootstrap/bootstrap-dropdown.js"
-        );
+// Functionality only used by Rock Hammer - this should be removed in production projects!
+"js/navigation-manager.js"
+);
 
-        // Google Analytics code
-        // Set your account ID appropriately by replacing UA-XXXXX-X
-        var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
-        (function (d, t) {
-            var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-            g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g, s)
-        }(document, 'script'));
-    </script>
-
+// Google Analytics code
+// Set your account ID appropriately by replacing UA-XXXXX-X
+var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 </body>
 </html>

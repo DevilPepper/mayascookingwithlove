@@ -1,0 +1,11 @@
+﻿.share-button.sharer-0 label {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.share-button.sharer-0 label:hover {
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.navi>.share-button{
+    float:right;
+}

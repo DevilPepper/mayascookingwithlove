@@ -14,18 +14,26 @@ body{
     background-repeat: repeat repeat;
 }
 section, l-panel, l-introduction, .container{
-    background-color:transparent;
+    padding: 20px;
+    width:100%;
 }
 .hero-unit div{
     background-color: rgb(216, 220, 168);
     border-radius: 25px;
 }
 
-#myCarousel, #myCarousel img{
-    width:612px;
-    height:612px;
-}
+#myCarousel, #myCarousel img {
+        width: 150px;
+        height: 150px;
+    }
 
+@media (min-width: 48em) {
+    #myCarousel, #myCarousel img {
+        width: 612px;
+        height: 612px;
+    }
+}
 .centered {
     left:25%;
 }
+

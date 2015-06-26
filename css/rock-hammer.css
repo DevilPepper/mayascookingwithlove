@@ -2591,3 +2591,7 @@ nav[role=navigation].active {
 
   tr {
     page-break-inside: avoid; } }
+
+li{
+    font-weight:bold;
+}

@@ -6,6 +6,21 @@
   background-color: rgba(128, 128, 128, 0.8);
 }
 
-.navi>.share-button{
+#navi>.share-button{
     float:right;
+}
+body{
+  background-color: rgba(216, 220, 162, 0.7);
+}
+.l-panel, .l-introduction, .hero-unit, section{
+  background: #D8DBA2;
+}
+
+#myCarousel, #myCarousel img{
+    width:612px;
+    height:612px;
+}
+
+.centered {
+    left:25%;
 }

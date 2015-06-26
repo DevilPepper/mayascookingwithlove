@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* 
 
 Built on Rock Hammer by Stuff and Nonsense
@@ -2224,7 +2224,7 @@ input.search-query {
   float: right;
   display: block;
   padding: 0.75em 12px;
-  background-color: #292f36;
+  background-color: #929a00;
   color: white;
   border-bottom-left-radius: 8px; }
   @media (min-width: 37.5em) {
@@ -2414,7 +2414,6 @@ nav[role=navigation].active {
   margin: 0;
   padding: 0;
   background-color: #f5f4e7;
-  background-image: url(../img/tmp/l-introduction.png);
   background-position: 50% 100%;
   background-repeat: repeat-x; }
   .l-introduction .hero-unit {

@@ -10,7 +10,7 @@
     float:right;
 }
 body{
-    background-image: url("/mayascookingwithlove/img/chocchip.jpg");
+    background-image: url("/mayascookingwithlove/img/_tile/chocchip.jpg");
     background-repeat: repeat repeat;
 }
 section, l-panel, l-introduction, .container{
@@ -22,18 +22,38 @@ section, l-panel, l-introduction, .container{
     border-radius: 25px;
 }
 
-#myCarousel, #myCarousel img {
-        width: 150px;
-        height: 150px;
-    }
+.stuffSlide{
+        text-align:center;
+}
 
+.stuffSlide img {
+    display:inline-block;
+    max-width: 256px;
+    max-height: 144px;
+    width:auto;
+    height:auto;
+}
 @media (min-width: 48em) {
-    #myCarousel, #myCarousel img {
-        width: 612px;
-        height: 612px;
+    .stuffSlide img {
+        max-width: 612px;
+        max-height: 344px;
     }
 }
-.centered {
-    left:25%;
+
+#myCarousel{
+        width: 300px;
+        height: 188px;
+    }
+@media (min-width: 48em) {
+    #myCarousel{
+        width: 656px;
+        height: 388px;
+    }
+}
+.centered  {
+    text-align:center;
 }
 
+.centered > *{
+    display:inline-block;
+}

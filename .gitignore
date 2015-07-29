@@ -200,3 +200,4 @@ FakesAssemblies/
 *.csproj
 *.user
 [Pp]roperties/
+ignore/
